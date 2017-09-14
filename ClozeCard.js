@@ -26,7 +26,7 @@ ClozeCard.prototype.full = function() {
 
 
 var card1 = new ClozeCard("... was the the first president of the United States.", "George Washington");
-var card2 = new ClozeCard(" ... was the youngest person to become president of the United States.", "Theodore Rosevelt");
+var card2 = new ClozeCard(" ... was the youngest person to become president of the United States.", "Theodore Roosevelt");
 
 //push cards into the array
 cards.push(card1);

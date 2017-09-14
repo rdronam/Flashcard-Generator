@@ -8,7 +8,7 @@ function BasicCard(front, back) {
 }
 
 var card1 = new BasicCard("Who was the first president of the United States", "George Washington");
-var card2 = new BasicCard("Who was the youngest president of the United States", "Theodore Rosevelt"); //birds evolved from dinosaurs who never were forced to adapt to nocturnal vision in the same way that mammals were, resulting in fewer cones and greater light sensitivity.
+var card2 = new BasicCard("Who was the youngest president of the United States", "Theodore Roosevelt"); 
 
 cards.push(card1);
 cards.push(card2);
