@@ -25,7 +25,7 @@ function studyCards() {
 					}
 				]).then(function(answer) {
 
-					if((answer.question).toLowerCase() === cards[cardCount].back) {
+					if(answer.question === cards[cardCount].back) {
 						console.log("correct");
 						//increase card count per loop
 						cardCount ++

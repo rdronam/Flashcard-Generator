@@ -46,7 +46,7 @@ function studyCards() {
 				]).then(function(answer) {
 
 					//if user's answer matches the cloze answer, log Correct, loop back through studyCards.
-					if((answer.partial).toLowerCase() === cards[cardCount].cloze) {
+					if(answer.partial=== cards[cardCount].cloze) {
 						console.log("correct");
 						//increase card count per loop
 						cardCount ++
